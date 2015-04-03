@@ -3,12 +3,12 @@ $:.push File.expand_path("../lib", __FILE__)
 require "openstack-swift/version"
 
 Gem::Specification.new do |s|
-  s.name        = "openstack-swift"
+  s.name        = "openstack-swifter"
   s.version     = Openstack::Swift::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["morellon", "pothix"]
+  s.authors     = ["morellon", "pothix", "rranshous"]
   s.email       = ["morellon@gmail.com", "pothix@pothix.com"]
-  s.homepage    = "http://github.com/morellon/openstack-swift"
+  s.homepage    = "http://github.com/rranshous/openstack-swift"
   s.description = %q{Openstack's swift client}
   s.summary     = s.description
 
