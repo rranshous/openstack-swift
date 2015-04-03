@@ -16,7 +16,7 @@ module Openstack
       def authenticate!
         @url, _, @token = Api.auth(@proxy, @user, @password)
 
-        if @url.blank? or @token.blank?
+        if @url.empty? or @token.empty?
           raise AuthenticationError
         else
           true
